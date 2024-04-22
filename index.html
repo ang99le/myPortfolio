@@ -20,6 +20,7 @@
     <header>
           <!--burgermenu-dropdown-->
         <div class="topnav">
+            <img src="assests/humburger.png"   class="icon" onclick="myFunction()" id="burger" width="60px" height="60px" class="active">
             <div id="dropdownmenu">
                 <li> <a href="#Home">Home</a> </li>
                 <li> <a href="#AboutMe">AboutMe</a></li>
@@ -27,11 +28,9 @@
                 <li><a href="#Mywork">MyWork</a></li>
                 <li><a href="#ContactMe">ContactMe</a></li>
             </div>
-      <img src="assests/humburger.png"   class="icon" onclick="myFunction()" id="burger" width="60px" height="60px" class="active">
           </div>
 
     <!--myNavbar-->
-         <a id="top"></a>
         <nav>
         <div class="navigation">
         <li> <a href="#Home">Home</a></li>
@@ -62,17 +61,34 @@
                 
             <div class="About">
                    <h1>About Me</h1>
-                   <p> I'm a passionate developer who always try to improve
-                       herself in coding and designing when I'm not coding I would
-                       like to watch crime movies series or read a book </p>
+                   <p> I'm a passionate developer who always try to improve<br>
+                       herself in coding and designing.when I'm not coding<br>
+                        I would like to watch crime movies series or read a book </p>
              
             </div>
         </section>
         <!--mythisrdsection-skills-->
         <section class="container reveal fade-bottom">
+        <h1 id="skillstext">Skills</h1>
         <div class="skills" id="Myskills">
-         <div class="square"></div>
-         <div class="firstcol">
+         <div class="square"></div> 
+         <!--foottrack animation-->
+         <div class="wrap">
+            <div class="upper">
+              <img src="assests/track1.png" />
+              <img src="assests/track1.png" />
+              <img src="assests/track1.png" />
+              <img src="assests/track1.png" />
+            </div>
+            <div class="lower">
+                <img src="assests/track1.png" />
+                <img src="assests/track1.png" />
+                <img src="assests/track1.png" />
+                <img src="assests/track1.png" /> 
+            </div>
+        </div>
+
+         <!-- <div class="firstcol"> -->
         <span class="htmllogo"></span>
         <p class="html">HTML</p>
         <span class="csslogo"></span>
@@ -92,8 +108,8 @@
                     <h2> flowersShop</h2>
                     <img src="assests/flower-shop.avif" id="flower">
                     <div class="projectsicon">
-                    <a href="https://github.com/ang99le" ><img src="assests/github.png" id="githubProj"></a>
-                    <a href="https://www.linkedin.com/feed/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
+                    <a href="https://github.com/ang99le/flowersShop" ><img src="assests/github.png" id="githubProj"></a>
+                    <a href="https://flowershopcard.netlify.app/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
                 </div>
                     <img src="assests/note.png" alt="note" id="note">
                     <p id="text"> CASE1<br>
@@ -107,8 +123,8 @@
                     <img src="assests/Yugioh.jpg" id="yo" alt="yogi">
 
                     <div class="projectsicon">
-                        <a href="https://github.com/ang99le" ><img src="assests/github.png" id="githubProj"></a>
-                        <a href="https://www.linkedin.com/feed/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
+                        <a href="https://github.com/ang99le/yu-Gi" ><img src="assests/github.png" id="githubProj"></a>
+                        <a href="https://yu-gi.netlify.app/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
                     </div>
 
                     <img src="assests/note.png" alt="note" id="note2">
@@ -121,8 +137,8 @@
                     <h2> Rabbit app </h2>
                    <img src="assests/rabbit.jpg" alt="rabbit" id="rab">
                    <div class="projectsicon">
-                    <a href="https://github.com/ang99le" ><img src="assests/github.png" id="githubProj"></a>
-                    <a href="https://www.linkedin.com/feed/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
+                    <a href="https://github.com/ang99le/bunny" ><img src="assests/github.png" id="githubProj"></a>
+                    <a href="https://askcutebunny.netlify.app/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
                 </div>
                    <img src="assests/note.png" alt="note" id="note3" >
                    <p id="text3"> CASE3<br>
@@ -135,19 +151,20 @@
                     <img src="assests/rabbit.jpg" alt="rabbit" id="shop">
                     <div class="projectsicon">
                         <a href="https://github.com/ang99le" ><img src="assests/github.png" id="githubProj"></a>
-                        <a href="https://www.linkedin.com/feed/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
+                        <a href="https://askcutebunny.netlify.app/" ><img src="assests/netlify.webp" id="netlifyProj"></a>
                     </div>
                     <img src="assests/note.png" alt="note" id="note4" >
                     <p id="text4"> CASE3<br>
                      Accuse:Extra cuteness app<br>
-                 </p>
-                </div>
-              <img src="assests/red-line.png" class="line1">
-              <img src="assests/red-line.png" class="line2">
-              <img src="assests/red-line.png" class="line3">
-              <img src="assests/red-line.png" class="line4">
-    </div>
+                     </p>
+                 
+                    </div>
+                    <img src="assests/red-line.png" class="line1">
+                    <img src="assests/red-line.png" class="line4">
+                    <img src="assests/red-line.png" class="line2">
+                    <img src="assests/red-line.png" class="line3">
         </section>
+      
         <!--myfifthsection-contactme-->
         <section class="container reveal fade-bottom">
             <div class="ContactMe" id="ContactMe">
@@ -186,15 +203,15 @@
        
     </footer>
 
-    <script type="text/javascript"
-    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
-</script>
-<script type="text/javascript">
-(function(){
-  emailjs.init({
-    publicKey: "ZoJ6lswOvIDQ0Fjum",
-  });
-})();
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init({
+              publicKey: "ZoJ6lswOvIDQ0Fjum",
+            });
+        })();
+
 </script>
     
     <script src="index.js"></script>
