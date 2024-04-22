@@ -448,6 +448,14 @@ html{
         width:20px;
         height:20px;
      }
+     .githubProj{
+      width: 20px;
+      height:20px;
+   }
+   .netlifyProj{
+      width:20px;
+      height:20px;
+   }
      /* projects logosanimaton */
       #githubProj:hover{
         transform:translate3d(-5px, 0px, 15px);
@@ -455,6 +463,16 @@ html{
         height:25px;
       }
       #netlifyProj:hover{
+        transform:translate3d(5px, 0px, -5px);
+        width: 25px;
+        height: 25px;
+      }
+      .githubProj:hover{
+        transform:translate3d(-5px, 0px, 15px);
+        width:25px;
+        height:25px;
+      }
+      .netlifyProj:hover{
         transform:translate3d(5px, 0px, -5px);
         width: 25px;
         height: 25px;
@@ -571,14 +589,14 @@ html{
           gap:5px;
           justify-content: center;
         }
-        #top{
+        .top{
           margin-top:1rem ;
           width:20px;;
           height:20px;
           border:1px solid #83530c;
           border-radius:12px;
         }
-        #top:hover{
+        .top:hover{
           transform: translate3d(0, -10px, 22px);
         }
 
@@ -1079,7 +1097,7 @@ margin-right: auto;
               padding-left:4.5rem;
             }
 
-          #top{
+          .top{
             margin-top:1.3rem;
             border:2px solid #83530c;
             border-radius:20px;
@@ -1613,7 +1631,7 @@ margin-bottom:-4rem;
             padding-left:4.5rem;
           }
 
-        #top{
+        .top{
           margin-top:1.3rem;
           border:2px solid #83530c;
           border-radius:20px;
@@ -2029,6 +2047,44 @@ padding-right:7px;
     margin-left:0.5rem;
     }
 
+
+    #githubProj{
+      width: 20px;
+      height:20px;
+   }
+   #netlifyProj{
+      width:20px;
+      height:20px;
+   }
+   .githubProj{
+    width: 20px;
+    height:20px;
+ }
+ .netlifyProj{
+    width:20px;
+    height:20px;
+ }
+   /* projects logosanimaton */
+    #githubProj:hover{
+      transform:translate3d(-5px, 0px, 15px);
+      width:25px;
+      height:25px;
+    }
+    #netlifyProj:hover{
+      transform:translate3d(5px, 0px, -5px);
+      width: 25px;
+      height: 25px;
+    }
+    .githubProj:hover{
+      transform:translate3d(-5px, 0px, 15px);
+      width:25px;
+      height:25px;
+    }
+    .netlifyProj:hover{
+      transform:translate3d(5px, 0px, -5px);
+      width: 25px;
+      height: 25px;
+    }
     /* skillssection */
     #skillstext{
       margin-bottom:-5rem;
@@ -2236,7 +2292,7 @@ padding-right:7px;
           font-size: 1.2rem;
          padding-left:4rem;
         }
-      #top{
+      .top{
         margin-top:1.8rem;
         border:2px solid #83530c;
         border-radius:20px;
