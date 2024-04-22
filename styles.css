@@ -165,8 +165,8 @@ html{
             grid-template-rows: repeat(5, 1fr);
             grid-column-gap: 0px;
             grid-row-gap: 0px;
-            margin-bottom:-6rem;
-            margin-top: 1rem;
+            margin-bottom:-8rem;
+            margin-top:3rem;
           }
           #skillstext{
             text-align: center;
@@ -184,19 +184,18 @@ html{
             display: none;
         }
           .htmllogo{
+            margin-left:9rem;
           width:83px;
           height:83px;
           border-radius:50%;
           background-color:#ecd9bd;
           justify-content: center;
           display: inline-block;
-          grid-area: 1 / 3 / 2 / 4;
-          
-             }
-              .html{
+                       }
+              #html{
               position:absolute;
-              margin-left:12rem;
-              margin-top:1.5rem;
+              margin-left:10.3rem;
+              margin-top:-3.7rem;
               font-size:1.1rem;
               }
               .csslogo{
@@ -204,16 +203,15 @@ html{
                width:85px;
                height:85px;
                border-radius:50%;
-               margin-left:7rem;
+               margin-left:-9rem;
                margin-top:4rem;
                background-color:#ecd9bd;
                grid-area: 2 / 2 / 3 / 3;
-          
               }
-               .css{
+               .Css{
                 position: absolute;
-                margin-left:8.6rem;
-                margin-top:5.5rem;
+                margin-left:6.7rem;
+                margin-top:0.2rem;
                 font-size:1.3rem;
               }
   
@@ -221,8 +219,8 @@ html{
               position: absolute;
               width:90px;
               height:90px;
-              margin-left:10.5rem;
-              margin-top:8.4rem;
+              margin-left:-1.5rem;
+              margin-top:4rem;
               border-radius: 50%;
               background-color:#ecd9bd;
               grid-area: 3 / 3 / 4 / 4;
@@ -230,8 +228,8 @@ html{
   
               .js{
                 position: absolute;
-                margin-left:12.7rem;
-                margin-top:9.8rem;
+                margin-left:15rem;
+                margin-top:0.2rem;
                 font-size:1.5rem;
               }
   
@@ -239,8 +237,8 @@ html{
                position: absolute;
               width:85px;
               height:85px;
-              margin-left:14rem;
-              margin-top:4.1rem;
+              margin-left:-5.5rem;
+              margin-top:8.3rem;
               border-radius: 50%;
               background-color:#ecd9bd;
               grid-area: 2 / 4 / 3 / 5;
@@ -248,8 +246,8 @@ html{
               
               .react{
                 position:absolute;
-                margin-left:15.5rem;
-                margin-top:5rem;
+                margin-left:10.3rem;
+                margin-top:4rem;
                 font-size:1rem;
                 text-align: center;
               }
@@ -585,6 +583,46 @@ html{
         }
 
  /* ---------------------------------- */
+ @media(min-width:414px) and (max-width:640px)
+ {
+ .htmllogo{
+  margin-left:11rem;
+width:83px;
+height:83px;
+border-radius:50%;
+background-color:#ecd9bd;
+justify-content: center;
+display: inline-block;
+             }
+    #html{
+    position:absolute;
+    margin-left:12.5rem;
+    margin-top:-3.7rem;
+    font-size:1.1rem;
+    }
+  
+     .Css{
+      position: absolute;
+      margin-left:9rem;
+      margin-top:0.2rem;
+      font-size:1.3rem;
+    }
+
+    .js{
+      position: absolute;
+      margin-left:17rem;
+      margin-top:0.2rem;
+      font-size:1.5rem;
+    }
+    .react{
+      position:absolute;
+      margin-left:12.2rem;
+      margin-top:4rem;
+      font-size:1rem;
+      text-align: center;
+    }
+  }
+ /* ------------- */
  @media (min-width:641px) and (max-width:780px){
     .topnav {
     overflow: hidden;
@@ -777,8 +815,7 @@ margin-right: auto;
       margin-left:-2.7rem;
       margin-top:13.5rem;
       font-size:1.7rem;
-    } 
-
+    }
     .cards{
         background-color:#ecd9bd;
         border:5px solid #793f10be;
@@ -1057,6 +1094,540 @@ margin-right: auto;
             margin-top: 1rem;
           }
  }
+
+
+
+/* ------------ */
+@media (min-width:781px) and (max-width:1024px){
+  .topnav {
+  overflow: hidden;
+  background-color:#f3e4cd;
+  position: relative;
+  display: none;
+ }
+ .navigation{
+  background-color: #ecd9bd;
+  padding:0.5rem;
+  padding-bottom:2rem;
+  margin-top:0px;
+ } 
+  li{
+  font-size:20px;
+  padding-left:10px;
+  }
+  .navigation li{
+    display: block;
+  }
+  li{
+  color: rgb(110, 64, 11);
+  list-style: none;
+  font-family: "Arsenal", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size:15px;
+  padding-left:10px;
+  cursor:pointer;
+  display:block;
+  margin-top:1.2rem;
+  }
+    
+  li:hover{
+    border-top: solid 2px #83530c;
+    border-bottom: solid 2px #83530c; 
+}
+
+  li{
+  font-size:22px;
+  padding-left:21px;
+  }
+
+  h1{
+  line-height: 1.5;
+  font-family: "Cookie", cursive;
+  font-weight:400;
+  font-style: normal;
+  font-size:3.5rem;
+  color: #53340a;
+  }
+      
+  p{
+  font-family: "Arsenal", sans-serif;
+  font-weight:1000px; 
+  font-style:normal;
+  line-height: 1.7;
+  color: #85622f;
+  font-size:1.3rem
+  }
+  .sec{
+  display: flex;
+  margin-top: 3rem;
+  display:grid;
+  grid-template-columns:400px 300px;
+  justify-content: center;
+  grid-row-gap:5px;
+  grid-column-gap:10px;
+  }
+
+  #detective
+  {
+  width:230px;
+  height:250px;
+  margin-top:1.3rem;
+  margin-right:5rem;
+}
+
+.infos{
+margin-top: 4rem; 
+}
+
+.aboutme{
+  display: flex;
+  margin-top: 3rem;
+  display:grid;
+  grid-template-columns:350px 300px;
+  justify-content: center;
+  grid-row-gap:5px;
+  grid-column-gap:20px;
+}
+
+.About{
+margin-top: 4rem; 
+}
+
+#detect{
+width:300px;
+height:300px;
+display: block;
+margin-left:1.7rem;
+margin-top: 6.7rem;
+margin-right: auto;
+}
+
+.skills{
+  margin-top:7rem;
+  margin-bottom:-50rem;
+}
+#skillstext{
+margin-bottom:-4rem;
+}
+.square{
+  border:2px solid rgba(247, 61, 61, 0.811);
+  width:600px;
+  height:250px;
+  background-color:white;
+  display: block;    
+  margin-left:6rem; 
+}
+.wrap {
+  position: relative;
+  left:-500px;
+  bottom:-3rem;   
+  display: block; 
+} 
+.upper,.lower {
+  display:flex;
+  width:400px;
+  justify-content: space-between;
+}
+.lower {
+  left:-55px;
+  position: relative;
+  top:0px;
+}
+
+.upper img, .lower img {
+  width:70px;
+  height:70px;
+  opacity: 0;
+  animation: fadeIn, fadeOut;
+  animation-duration: 5s, 8s;
+  animation-fill-mode:forwards;
+  animation-iteration-count: infinite;
+}
+@keyframes fadeIn {
+  10% {opacity: 1};
+  100% {opacity: 1};
+}
+@keyframes fadeOut {
+  25% {opacity: 0};
+  100% {opacity: 0};
+}
+
+.upper img:first-child {
+  animation-delay: 0.5s, 3.5s;
+}
+.lower img:first-child {
+  animation-delay: 1s, 4s;  
+}
+.upper img:nth-child(2) {
+  animation-delay: 1.5s, 4.5s;
+}
+.lower img:nth-child(2) {
+  animation-delay: 2s, 5s;
+}
+.upper img:nth-child(3) {
+  animation-delay: 2.5s, 5.5s;
+}
+.lower img:nth-child(3) {
+  animation-delay: 3s, 6s;  
+}
+.upper img:nth-child(4) {
+  animation-delay: 3.5s, 6.5s;
+}
+.lower img:nth-child(4) {
+  animation-delay: 4s, 7s;
+} 
+.firstcol{
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(6, 1fr);
+  margin-bottom:-75rem;
+
+}
+
+.htmllogo{
+  position: absolute;
+  width:125px;
+  height:125px;
+  border-radius:50%;
+  background-color:#ecd9bd;
+  grid-area: 1/3/2/4;
+  margin-left:-29rem;
+  margin-top:-2rem;
+ 
+   }
+   #html{
+    position:absolute;
+     margin-top:0rem;
+     margin-left:-27rem;
+     font-size:2rem;
+   }
+   .csslogo{
+    position: absolute;
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    background-color:#ecd9bd;
+    grid-area: 1/4/2/5;
+    margin-left:-64rem;
+    margin-top:-2rem;
+   }
+   .Css{
+    position:absolute;
+     margin-left:-62rem;
+     margin-top:0rem;
+     font-size:2rem;
+   }
+   .jslogo{
+    position: absolute;
+    width:125px;
+    height:125px;
+    border-radius:50%;
+    background-color:#ecd9bd;
+    grid-area: 1 / 4 / 2 / 5; 
+     margin-left:-64rem;
+    margin-top:12rem;
+   }
+   .js{
+    margin-left:-61rem;
+    margin-top:14rem;
+    font-size:2rem;
+  }
+
+   .reactlogo{
+    position: absolute;
+   width:125px;
+   height:125px;
+   border-radius:50%;
+    margin-left:-29rem;
+    margin-top:12rem;
+    background-color:#ecd9bd;
+   grid-area: 2/3/3/4; 
+   }
+
+   .react{
+    margin-left:-26.6rem;
+    margin-top:13.5rem;
+    font-size:1.7rem;
+  }
+  .cards{
+      background-color:#ecd9bd;
+      border:5px solid #793f10be;
+      display: grid;
+      grid-template-rows: repeat(6, 1fr);
+      grid-template-columns: repeat(6, 1fr);
+      gap:50px;
+      width:90%;
+      height:30rem;
+      font-family: "Arsenal", sans-serif;
+      font-weight:200;
+      font-size:0.8rem;
+      font-style: normal;
+      margin-left:2rem;
+      padding-top:3rem;
+      }
+      #flower{
+      width:100px;
+      height:100px;
+      }
+      
+      .flowersShop{
+      position:relative;
+      justify-items: center;
+      align-items: center;
+      box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+      transition:0.3s;
+      text-align:center;
+      padding:5px;
+      border-radius:5px ;
+      background-color: white;
+      grid-area: 1 / 3 / 2 / 4;
+      width:200px;
+      height:200px;
+              
+      }
+       #pin{
+        padding-right:7px;
+        }
+            
+          #note{
+           margin-top:-6rem;  
+           margin-left:5.5rem;
+          width:120px;
+          height:120px;
+          }
+            #text{
+           margin-top:-5.5rem;
+           margin-left:6.5rem;
+            font-family: "Gochi Hand", cursive;
+            font-weight:400;
+            font-size:10px;
+            font-style: normal;  
+      
+            }
+            #yo{
+             width:100px;
+             height:100px;
+            }
+            .Yu-Gi{
+                position:relative;
+                justify-items: center;
+                align-items: center;
+                box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+                transition: 0.3s;
+                 text-align:center;
+                padding:7px;   
+                background-color: white;
+                border-radius:5px;
+                width:200px;
+                height:200px;  
+                grid-area: 1 / 4 / 2 / 5; 
+               }
+            
+            #pin{
+                padding-right:7px;
+            }
+            
+            #note2{
+            width:125px;
+            height:125px;
+            margin-left:6rem;
+            margin-top:-6rem;
+              }
+            #text2{
+            margin-top:-6rem;
+            font-family: "Gochi Hand", cursive;
+            font-weight:400;
+            font-size:10px;
+            font-style: normal;  
+            margin-left:8rem;
+            }
+            #rab{
+                width:100px;
+                height: 100px;
+            }
+            .rabbit{
+                position:relative;
+                justify-items: center;
+                align-items: center;
+                box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+                transition: 0.3s;
+                text-align:center;
+                padding:5px;
+                border-radius:5px ;
+                background-color:white;
+                width:200px;
+                height:200px;
+                margin-top:2.5rem;
+               grid-area: 2 / 3 / 3 / 4;
+            }
+            
+            #pin{
+                padding-right:7px;
+            }
+            
+            #note3{
+                width:125px;;
+                height:125px;
+                margin-top:-6rem;
+                margin-left:6rem;
+            }
+            #text3{
+            font-family: "Gochi Hand", cursive;
+            font-weight: 400;
+             font-size:10px;
+            font-style: normal;
+            margin-left:8rem;
+            margin-top:-5.5rem;
+            }
+            .shop{
+              position:relative;
+                justify-items: center;
+                align-items: center;
+                box-shadow: 0 4px 8px 0 rgba(136, 129, 129, 0.2);
+                transition: 0.3s;
+                text-align:center;
+                padding:5px;
+                border-radius:5px ;
+                background-color:white;
+                width:200px;
+                height:200px;
+              left:-16rem;
+              top:-14rem;
+              grid-area: 2 / 4 / 3 / 5;
+            }
+            #shop{
+             width:100px;
+             height:100px;
+            }
+            #note4{
+            margin-left:5.7rem;
+            width:125px;
+            height:125px;
+            }
+            #text4{
+            font-family: "Gochi Hand", cursive;
+            font-weight:400;
+            font-size:10px;
+            font-style:normal;
+            margin-top:-5.8rem;
+            margin-left:7rem;
+            
+            }
+            .line1{
+              position:absolute;
+              height:11rem;
+              left:-9rem;
+              bottom:6rem;
+              transform: rotate(0.3deg);
+              opacity:0.5;
+              display:block;   
+              }
+              .line2{
+                position: absolute;
+                height:11rem;
+                left:-1.5rem;
+                bottom:-1rem;
+                transform:rotate(90deg);
+                opacity:0.5;
+                display: block;   
+              }
+              .line3{
+                position: absolute;
+                height:11rem;
+                left:-9rem;
+                bottom:-9.5rem;
+                transform:rotate(0.3deg);
+                opacity:0.5;
+                display: block;
+                 }
+              .line4{
+                position: absolute;
+                height:10.5rem;
+                left:-18rem;
+                top:4rem;
+                transform:rotate(90deg);
+                opacity:0.5;
+                display: block;   
+              } 
+
+                /* contactme */
+         #contatctform{
+          text-align: center;
+          justify-content: center;
+          }
+
+         /* contact logo */
+
+         .icons{
+          gap:15px;
+         }
+         .cvdownload{
+          width:45px;
+          height:45px;
+         }
+         .linkedin{
+          width:45px;
+          height:45px;
+         }
+          .github{
+            width:45px;
+            height:45px;
+          }
+          #username{
+            width:30rem;
+            height:2rem;
+            margin-bottom:7px;
+            padding:7px;
+            border-radius:5px;
+            border:2px solid #83530c;
+          }
+          #subject{
+            width:30rem;
+            height:2rem;
+            margin-bottom:7px;
+            padding:7px;
+            border-radius:5px;
+            border:2px solid #83530c;
+          }
+
+          #email{
+          width:30rem;
+          height:2rem;
+          margin-bottom:7px;
+          padding:7px;
+          border-radius:5px;
+          border:2px solid #83530c;
+          }
+          #message{
+          width:30.7rem;
+          height:13rem;
+          border-radius:5px;
+          border:2px solid #83530c;
+          }
+
+          #form-btn{
+            width:12rem;
+            height:3.9rem;
+            font-size:1.5rem; 
+            padding-left:4.5rem;
+          }
+
+        #top{
+          margin-top:1.3rem;
+          border:2px solid #83530c;
+          border-radius:20px;
+          height: 35px;
+          width: 35px;
+        }
+        .backTotop p{
+        font-weight:bold;
+        }
+        footer{
+          padding-top:0.5rem;
+          margin-top: 1rem;
+        }
+}
 /* ------------ */
      @media(min-width:1025px){
     .topnav {
@@ -1462,13 +2033,16 @@ padding-right:7px;
     #skillstext{
       margin-bottom:-5rem;
     }
+    .skills{
+      margin-left:-4rem;
+    }
     .square{
       border:5px solid rgba(247, 61, 61, 0.811);
       width:500px;
       height:450px;
       background-color:white;
       margin-top:-50rem;
-      margin-left:28rem;
+      margin-left:5rem;
     }
     .skillslogos{
       display: grid; 
