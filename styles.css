@@ -585,7 +585,7 @@ html{
         }
 
  /* ---------------------------------- */
- @media (min-width:641px) and (max-width:1024px){
+ @media (min-width:641px) and (max-width:780px){
     .topnav {
     overflow: hidden;
     background-color:#f3e4cd;
@@ -694,18 +694,22 @@ margin-right: auto;
     margin-top:7rem;
     margin-bottom:-50rem;
 }
+#skillstext{
+  margin-bottom:-4rem;
+}
 .square{
     border:2px solid rgba(247, 61, 61, 0.811);
     width:500px;
     height:250px;
     background-color:white;
     display: block;    
-    margin-left:9rem;   
+    margin-left:8rem; 
   }
   .firstcol{
     display: grid;
     grid-template-rows: repeat(5, 1fr);
     grid-template-columns: repeat(6, 1fr);
+    margin-bottom:-75rem;
 
  }
 
@@ -720,9 +724,10 @@ margin-right: auto;
     margin-top:-2rem;
    
      }
-     .html{
+     #html{
+      position:absolute;
        margin-top:0rem;
-       margin-left:-3.3rem;
+       margin-left:-3rem;
        font-size:2rem;
      }
      .csslogo{
@@ -735,8 +740,9 @@ margin-right: auto;
       margin-left:-34rem;
       margin-top:-2rem;
      }
-     .css{
-       margin-left:-31.6rem;
+     .Css{
+      position:absolute;
+       margin-left:-31.5rem;
        margin-top:0rem;
        font-size:2rem;
      }
@@ -787,6 +793,7 @@ margin-right: auto;
         font-size:0.8rem;
         font-style: normal;
         margin-left:2rem;
+        padding-top:3rem;
         }
         #flower{
         width:100px;
@@ -1036,11 +1043,14 @@ margin-right: auto;
             }
 
           #top{
-            margin-top:1.8rem;
+            margin-top:1.3rem;
             border:2px solid #83530c;
             border-radius:20px;
             height: 35px;
             width: 35px;
+          }
+          .backTotop p{
+          font-weight:bold;
           }
           footer{
             padding-top:0.5rem;
@@ -1065,7 +1075,7 @@ margin-right: auto;
       }
        .navigation{
         background-color: #ecd9bd;
-        padding:0.7rem;
+        padding:0.9rem;
         margin-top:0px;
        } 
       li{
@@ -1449,13 +1459,16 @@ padding-right:7px;
     }
 
     /* skillssection */
+    #skillstext{
+      margin-bottom:-5rem;
+    }
     .square{
       border:5px solid rgba(247, 61, 61, 0.811);
       width:500px;
       height:450px;
       background-color:white;
-      margin-top:12rem;
-      margin-left:31.5rem;
+      margin-top:-50rem;
+      margin-left:28rem;
     }
     .skillslogos{
       display: grid; 
@@ -1470,7 +1483,7 @@ padding-right:7px;
     .wrap {
       position: relative;
       left:-500px;
-      bottom:-11rem;   
+      bottom:-14rem;   
       display: block; 
     } 
     .upper,.lower {
@@ -1479,7 +1492,7 @@ padding-right:7px;
       justify-content: space-between;
     }
     .lower {
-      left:-20px;
+      left:-55px;
       position: relative;
       top:0px;
     }
@@ -1489,7 +1502,7 @@ padding-right:7px;
       height:70px;
       opacity: 0;
       animation: fadeIn, fadeOut;
-      animation-duration: 4.5s, 7.5s;
+      animation-duration: 5s, 8s;
       animation-fill-mode:forwards;
       animation-iteration-count: infinite;
     }
@@ -1526,18 +1539,20 @@ padding-right:7px;
     .lower img:nth-child(4) {
       animation-delay: 4s, 7s;
     } 
-
-   
+    
        .htmllogo{
         width:140px;
         height:140px;
         border-radius:50%;
         background-color:#ecd9bd;
         display: flex;
+        margin-left:-32rem;
         grid-area:htmllogo;
          }
-         .html{
-           margin-top:-6.5rem;
+         #html{
+          position: absolute;
+          margin-left:-30rem;
+           margin-top:8rem;
            font-size:2rem;
          }
          .csslogo{
@@ -1546,11 +1561,14 @@ padding-right:7px;
           border-radius:50%;
           background-color:#ecd9bd;
           display: flex;
+          margin-left:-72rem;
           grid-area:csslogo;
+       
          }
-         .css{
-           margin-left:30.6rem;
-           margin-top:-6rem;
+         .Css{
+          position: absolute;
+           margin-left:-69.5rem;
+           margin-top:8rem;
            font-size:2rem;
          }
          
@@ -1559,19 +1577,31 @@ padding-right:7px;
           height:140px;
           border-radius:50%;
           background-color:#ecd9bd;
+          margin-left:-31rem;
           grid-area:jslogo;
+          
          }
-
+         .js{
+          position: absolute;
+           margin-left:-27.5rem;
+           margin-top:25.5rem;
+           font-size:2rem;
+         }
          .reactlogo{
          width:140px;
          height:140px;
          border-radius:50%;
-          /* margin-left:15rem;
-          margin-top:-28.5rem; */
+         margin-left:-71.5rem;
           background-color:#ecd9bd;
           grid-area:reactlogo;
+          
          }
-
+         .react{
+          position: absolute;
+           margin-left:-69.5rem;
+           margin-top:23rem;
+           font-size:2rem;
+         }
        #contatctform{
         text-align: center;
         justify-content: center;
